@@ -1,0 +1,105 @@
+h1,h2,h3{
+  font-family: 'my font','Times New Roman', Times; 
+  font-weight: bolder;
+  padding-top: 30px;
+}
+h3 {
+  border-bottom: solid 3px #ffcfdf;/*背景色*/
+  position: relative;
+}
+h3:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #427eff;/*下線*/
+  bottom: -3px;
+  width: 35%;
+}
+header{
+  text-align: center;
+}
+nav{
+  font-family: 'Times New Roman', Times; 
+  font-weight: bolder;
+  opacity: 0.9;
+  background-color: #f2ebff!important;
+}
+nav a{
+  color: gray!important;
+}
+.top{
+  width: auto;
+  height:1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-text{
+  font-size: 4.5em;
+  color: transparent; /*テキストは透過させる*/
+  background: url('https://cdn.pixabay.com/photo/2016/02/19/10/46/curve-1209392_960_720.jpg') no-repeat center; /*背景の画像*/
+  background-clip: text;
+  -webkit-background-clip: text;  /*背景をテキストでマスクする*/
+}
+.btn-primary{
+  background: linear-gradient(125deg, #427eff 10%, #f13f79 80%) no-repeat;
+  border-color: rgb(164, 85, 255)!important;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 1.5rem!important;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder!important;
+  border: none!important;
+}
+.btn-primary:hover {
+  box-shadow: 0 13px 20px -3px rgba(0, 0, 0, 0.44);
+  transition: 0.8s;
+
+}
+
+.skill ul>li img{
+  width: 50px;
+  height: 50px;
+}
+.skill6 img{
+    width: 123px!important;
+    height: 50px!important;
+}
+.skill8 img{
+    transform: scale(1.2);
+}
+
+li img.skill8{
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.skill-content{
+  font-family: 'Times New Roman', Times; 
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style: none;
+  position: relative;
+  text-align: center;
+}
+
+p{
+  font-family: serif;
+}
+
+.btn-submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+footer>nav{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 20px;
+}
